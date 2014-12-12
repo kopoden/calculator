@@ -12,4 +12,6 @@ MakeObjects: $(HEADERS) $(SOURCES)
 
 $(EXECUTABLE): $(OBJECTS) MakeObjects
 	$(CC) $(OBJECTS) -o $(EXECUTABLE)
-   
+
+clean:
+	rm -f *.o

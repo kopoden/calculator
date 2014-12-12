@@ -6,7 +6,7 @@
 
 extern FILE* logs;
 
-const int MAX_STACK_SIZE = 10000;
+#define MAX_STACK_SIZE 10000
 
 enum errors {
     CALC_ERR = 9,               ///Tells about calculation error.

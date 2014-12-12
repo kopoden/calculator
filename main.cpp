@@ -119,7 +119,7 @@ do {                                                                            
 #define msg( error ) error
 #endif
 //================================================
-FILE* logs = NULL; //Global
+FILE* logs = NULL;
 //================================================
 int main() {
 

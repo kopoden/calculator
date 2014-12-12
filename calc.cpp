@@ -114,6 +114,7 @@ do {                                                                            
 #define safe_pop( res ) res
 #endif
 //===================================================================================
+
 #ifdef MakeLogs
 #define check( res )                                                                \
 do {                                                                                \
